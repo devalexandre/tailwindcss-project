@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .template {
+        @apply w-full
+    }
+    .main{
+        @apply h-96 w-full m-0.5 text-center
+    }
+    .header{
+       @apply p-10 text-gray-700 text-center w-full
+    }
+    .btn{
+        @apply 
+         font-bold py-2 px-4 rounded inline-flex items-center 
+         drop-shadow-lg uppercase tracking-wider
+         transform transition hover:-translate-y-0.5
+    }
+    .btn-primary{
+        @apply text-white bg-indigo-500 hover:bg-indigo-600 
+    }
+    .footer {
+
+        @apply  flex justify-center
+    }
+
+    .text-footer{
+        @apply   inline-flex items-center self-center 
+    }
+
+    .heart{
+        @apply text-red-500 m-1
+    }
+}
