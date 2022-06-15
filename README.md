@@ -1,6 +1,10 @@
+# Whats is?
+
+This project is a template for preactjs, for use with tailwindcss
+
 # How To
 
 ```
-preact create devalexandre/tailwindcss-project <project-name>
+npx preact-cli create devalexandre/tailwindcss-project <project-name>
 
 ```
