@@ -1,5 +1,5 @@
 {
-  "name": "{{ name }",
+  "name": "devevangelista",
   "version": "0.0.1",
   "repository": "https://github.com/devalexandre/tailwindcss-project.git",
   "author": "devalexandre <alexandre@indev.net.br>",
@@ -32,6 +32,7 @@
     "sirv-cli": "1.0.3"
   },
   "dependencies": {
+    "@material-tailwind/react": "^1.2.2",
     "preact": "^10.3.2",
     "preact-render-to-string": "^5.1.4",
     "tailwindcss": "^2.1.4"

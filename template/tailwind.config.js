@@ -1,4 +1,6 @@
-module.exports = {
+const withMT = require("@material-tailwind/react/utils/withMT");
+
+module.exports = withMT({
     future: {
         removeDeprecatedGapUtilities: true,
         purgeLayersByDefault: true,
@@ -10,4 +12,4 @@ module.exports = {
     },
     variants: {},
     plugins: [],
-};
+});
